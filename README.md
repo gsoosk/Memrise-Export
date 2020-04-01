@@ -1,5 +1,7 @@
 # Memrise Export
 This user script exports all of course words with definition and extra info into markdown format or csv format. 
+![markdown](./2.png)
+![csv](./1.png)
 
 ## Installation
 The easiest method is through the Tampermonkey [chrome extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) / [firefox addon](https://addons.mozilla.org/en-GB/firefox/addon/tampermonkey/).
