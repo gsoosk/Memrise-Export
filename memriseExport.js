@@ -5,6 +5,7 @@
 // @description  export memrise as csv/markdown
 // @author       gsoosk
 // @match        https://www.memrise.com/course/*/*/
+// @match        https://app.memrise.com/course/*/*/
 // @updateURL    https://github.com/gsoosk/Memrise-Export/memriseExport.js
 // @downloadURL  https://github.com/gsoosk/Memrise-Export/memriseExport.js
 // @grant        none
@@ -17,7 +18,7 @@
 
 
     function getWords(courseId, level) {
-        const url = `https://www.memrise.com/ajax/session/?course_id=${courseId}&level_index=${level}&session_slug=preview`
+        const url = `https://app.memrise.com/ajax/session/?course_id=${courseId}&level_index=${level}&session_slug=preview`
         console.log('Fetching words from ' + url)
         return fetch(url, { credentials: 'same-origin' })
         // parse response
